@@ -59,37 +59,3 @@ export type EditRateAction = {
 }
 
 export type StudentActionTypes = AddStudentAction | RemoveStudentAction | EditNameAction | EditEditableAction | EditBirthdateAction | EditRateAction;
-
-// enum MyEnum {
-//   x1,
-//   x2,
-//   x3
-// }
-
-// interface MyAction1 {
-//   type: MyEnum.x1;
-//   payload: {
-//     f1: string;
-//     f2: number;
-//   }
-// }
-
-// interface MyAction2 {
-//   type: MyEnum.x2;
-//   payload: {
-//     f3: number;
-//     f4: boolean;
-//   }
-// }
-
-// type MyAction = MyAction1 | MyAction2;
-
-// function MyREducer(state: any, action: MyAction): any {
-//   switch (action.type){
-//     case MyEnum.x1:
-//       const x: string = action.payload.f1;
-//       break;
-//       case MyEnum.x2:
-//         const y: boolean = action.payload.f3;
-//   }
-// }
